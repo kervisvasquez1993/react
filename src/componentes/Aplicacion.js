@@ -2,8 +2,11 @@ import React from "react";
 import Header from "./Header";
 import Productos from "./Productos";
 import Footer from "./footer";
-class PrimerComponenete extends React.Component {
+class Aplicacion extends React.Component {
     render() {
+        const productos = [
+            {nombre: 'libro', precio}
+        ]
         return (
             <div>
                 <Header
@@ -15,4 +18,4 @@ class PrimerComponenete extends React.Component {
         )
     }
 }
-export default PrimerComponenete
+export default Aplicacion
